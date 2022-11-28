@@ -1,0 +1,20 @@
+1- for adding a new task we can run this command:
+    taskaty add {task_name}
+
+2- for listing unchecked tasks we can runL
+    taskaty list
+
+3- for listing all tasks (checked or unchecked)
+    taskaty list -a
+
+4- for checking a task:
+    taskaty check -t {task_id}
+
+5- for deleting one task:
+    taskaty remove -t {task_id}
+
+6- for deleting all tasks:
+    taskaty reset
+
+
+Note: All tasks are stored inside tasks.txt file
